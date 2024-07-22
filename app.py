@@ -9,7 +9,6 @@ import queue
 import sys
 import os
 from time import sleep
-import wsgiserver
 from waitress import serve
 app = Flask(__name__)
 
